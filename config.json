@@ -1,0 +1,20 @@
+{
+  "method": "SPARC",
+  "parameters": 4338322,
+  "checkpoint": "weights/sparc.pt",
+  "cases": {
+    "simulation": "data/simulation.h5",
+    "real": "data/real.h5"
+  },
+  "spatial_size": 102,
+  "fs_hz": 150000000.0,
+  "pitch_mm": 0.5,
+  "spatial_stride": 4,
+  "time_window": 2560,
+  "batch_size": 4,
+  "backbone_lr": 5e-05,
+  "refiner_lr": 0.0002,
+  "weight_decay": 0.0001,
+  "cone_weight": 0.1,
+  "seed": 20260730
+}

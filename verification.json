@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "scope": "CPU smoke verification, not a full-record accuracy evaluation",
+  "training_demo": "one update on supplied simulation, random initialization, all parameters trainable",
+  "inference": {
+    "simulation": {
+      "case": "simulation",
+      "shape_xyt": [
+        102,
+        102,
+        320
+      ],
+      "fs_hz": 150000000.0,
+      "source_interval": [
+        6000,
+        6320
+      ],
+      "parameters": 4338322,
+      "scale": 7.67068502970836,
+      "device": "cpu",
+      "seconds": 27.733230724930763,
+      "full_record": false,
+      "unknown_nrmse": 0.2508388784117652,
+      "unknown_pearson_r": 0.9680381229610985,
+      "measured_max_abs_error": 0.0
+    },
+    "real": {
+      "case": "real",
+      "shape_xyt": [
+        102,
+        102,
+        320
+      ],
+      "fs_hz": 150000000.0,
+      "source_interval": [
+        6000,
+        6320
+      ],
+      "parameters": 4338322,
+      "scale": 0.06174302508616615,
+      "device": "cpu",
+      "seconds": 28.007235204800963,
+      "full_record": false,
+      "unknown_nrmse": 0.41898928940162256,
+      "unknown_pearson_r": 0.9084725211282689,
+      "measured_max_abs_error": 0.0
+    }
+  },
+  "samples_full_signal_copy_verified": true,
+  "reference_model_parameters": 4338322,
+  "no_reconstruction_or_comparator_tools": true
+}

@@ -1,0 +1,30 @@
+{
+  "simulation": {
+    "file": "data/simulation.h5",
+    "original_file": "sensor_000162.mat",
+    "original_key": "Sinogram_simulated",
+    "shape_ct": [
+      10404,
+      9061
+    ],
+    "signal_sha256": "332fd28c05743305a9226e58bd8d852e0dc6aa712b737a4b6a49fe2ad62bd12c",
+    "exact_signal_copy_verified": true,
+    "scale": 7.67068502970836,
+    "role": "original training split, sample 162",
+    "file_bytes": 275536592
+  },
+  "real": {
+    "file": "data/real.h5",
+    "original_file": "mouse_1_native150_all_inference.mat",
+    "original_key": "Sinogram_full_gt_150mhz",
+    "shape_ct": [
+      10404,
+      8192
+    ],
+    "signal_sha256": "a6f3f0ffc37650b9ba47a3f4cb72be9476426cf89bb165b9f8eb1f15cba4e943",
+    "exact_signal_copy_verified": true,
+    "scale": 0.06174302508616615,
+    "role": "Mouse1 component of Figure 5 panel C paired anatomy",
+    "file_bytes": 267244834
+  }
+}
