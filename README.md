@@ -18,17 +18,22 @@
 | `data/manifest.json` | 样本来源、尺寸、数值哈希与拷贝校验 |
 
 
-## 下载完整演示包
+## 样本下载与放置
 
-请从 [2026-09-25 Release](https://github.com/ZhiboXiao/SPARC/releases/tag/demo-20260925) 下载 `SPARC_demo_with_samples_20260925.zip`。解压后进入 `SPARC_demo` 目录，即可按下方说明运行。
+**样本网盘下载链接：待补充。**
 
-Git 仓库包含代码、已训练权重和样本元数据。两个 HDF5 样本通过完整 ZIP 分发；如果使用 `git clone`，请从 ZIP 中将 `data/real.h5` 和 `data/simulation.h5` 复制到仓库的 `data/` 目录。
-
-完整 ZIP 的 SHA-256：
+两个 HDF5 样本不包含在 Git 仓库中。下载后，请将文件放置为：
 
 ```text
-fa433cc024a590985af8754c203285c0508f5895d492f91dd3de638791e05d8d
+data/
+  manifest.json
+  simulation.h5
+  real.h5
 ```
+
+如果下载的是完整演示 ZIP，请将其中 `SPARC_demo/data/` 下的两个 `.h5` 文件复制到本仓库的 `data/` 目录。模型权重 `weights/sparc.pt` 已包含在仓库中。样本就位后，再运行下方训练或推理命令。
+
+`SHA256SUMS.txt` 包含仓库文件及两个样本的校验值，可用于核对下载内容。
 
 ## 安装
 
