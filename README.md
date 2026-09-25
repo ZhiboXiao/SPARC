@@ -1,6 +1,6 @@
 # SPARC 
 
-**Sparse Propagation-Aware ReCovery(SPARC)**。仅包含模型、已训练权重、训练/推理代码，以及模拟、真实真实样本。
+**Sparse Propagation-Aware ReCovery(SPARC)**。包含模型、已训练权重、训练/推理代码，以及模拟、真实真实样本。
 
 ## 内容
 
