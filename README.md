@@ -20,7 +20,7 @@
 
 ## 样本下载与放置
 
-**样本网盘下载链接：待补充。**
+**样本网盘下载链接：(https://drive.google.com/file/d/1xDtge4FYOvGQNsd4ZmTeolbNO8i0pniH/view?usp=sharing)。**
 
 两个 HDF5 样本不包含在 Git 仓库中。下载后，请将文件放置为：
 
